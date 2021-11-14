@@ -1,0 +1,169 @@
+hindu_group = {
+
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
+
+vaishnavite = {
+	
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+
+		color = { 0 112 34 }
+		icon = 8
+		country = {
+			defensiveness = 0.2
+			global_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			siege_ability = 0.1
+			defensiveness = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		
+		misguided_heretic = yes
+		
+		holy_sites = { 4476 525 4441 4410 4454 }
+		
+		blessings = {
+			blessing_of_krishna
+			blessing_of_kurma
+			blessing_of_matsya
+			blessing_of_narasimha
+			blessing_of_rama
+		}
+	
+	
+	harmonized_modifier = harmonized_dharmic
+	
+	crusade_name = CRUSADE
+}
+shaivite = {
+	
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+
+		color = { 204 0 27 }
+		icon = 8
+		country = {
+			ae_impact = -0.05
+			core_creation = -0.10
+		}
+		country_as_secondary = {
+			ae_impact = -0.05
+			core_creation = -0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		
+		misguided_heretic = yes
+		
+		holy_sites = { 4471 609 552 2053 4509 }
+		
+		blessings = {
+			blessing_of_piplaad
+			blessing_of_nandi
+			blessing_of_veerabhadra
+			blessing_of_grihapati
+			blessing_of_rishabha
+		}
+	
+	
+	harmonized_modifier = harmonized_dharmic
+	
+	crusade_name = CRUSADE
+}
+shaktist = {
+	
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+
+		color = { 2 81 156 }
+		icon = 8
+		country = {
+			siege_ability = 0.05
+			discipline = 0.05
+		}
+		country_as_secondary = {
+			siege_ability = 0.05
+			discipline = 0.05
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+		
+		misguided_heretic = yes
+		
+		holy_sites = { 517 2077 590 4486 552 }
+		
+		blessings = {
+			blessing_of_durga
+			blessing_of_badhrakali
+			blessing_of_annapoorna-devi
+			blessing_of_sarvamangala
+			blessing_of_bhavani
+		}
+	
+	
+	harmonized_modifier = harmonized_dharmic
+	
+	crusade_name = CRUSADE
+}
+
+
+koyapunem = {
+		icon = 8
+		color = { 145 84 38 }
+		country = {
+			hostile_attrition = 2
+			defesniveness = 0.1
+		}
+		
+	personal_deity = yes
+}
+
+smarta = {
+	
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+
+		color = { 156 2 153 }
+		icon = 8
+		country = {
+			idea_cost = -0.1
+			tolerance_own = 1
+		}
+		country_as_secondary = {
+			siege_ability = 0.1
+			defensiveness = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+		
+		misguided_heretic = yes
+		
+		holy_sites = { 552 2029 2313 2052 2069 }
+		
+		blessings = {
+			legitimize_government
+			encourage_warriors_of_the_faith
+			send_monks_to_establish_monasteries
+			promote_territorial_rights
+			will_of_the_martyrs
+		}
+	
+	
+	harmonized_modifier = harmonized_dharmic
+	
+	crusade_name = CRUSADE
+		}
+ 	
